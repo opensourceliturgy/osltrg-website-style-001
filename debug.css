@@ -1,7 +1,7 @@
 
 :root {
 	--minor-label-color: #000077;
-	--highlight-color: #0000AA;
+	--highlight-color: #0000FF;
 }
 
 .leader {
@@ -13,6 +13,17 @@
 }
 
 .placehold {
-	color: #005588;
+	font-family: "Bradley Hand";
 }
+
+.instruction {
+	font-family: "Bradley Hand";
+}
+
+p.section_label {
+	font-size: 300%;
+	font-family: "Bradley Hand";
+}
+
+
 

@@ -1,6 +1,7 @@
 
 
 :root {
+	--major-label-color: #000000;
 	--minor-label-color: #770000;
 	--highlight-color: #AA0000;
 	--full-page-color: #FFFAF0;
@@ -24,6 +25,15 @@ a:visited {
 
 a:active {
 	color: var(--page-alink-color);
+}
+
+.highlight_big {
+	color: var(--highlight-color);
+	font-size: 200%;
+}
+
+.highlight_reg {
+	color: var(--highlight-color);
 }
 
 
@@ -63,6 +73,12 @@ p.lect_label:before {
   content: "---- ";
 }
 
+p.section_label {
+	color: var(--major-label-color);
+	font-weight: bold;
+	font-size: 150%;
+}
+
 p.prayer_label {
   color: var(--minor-label-color);
   font-weight: bold;
@@ -76,6 +92,7 @@ p.prayer_label:before {
 
 .instruction {
 	color: var(--highlight-color);
+	text-decoration: none;
 }
 
 .instruction:before {
