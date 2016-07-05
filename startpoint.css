@@ -1,0 +1,88 @@
+
+
+:root {
+	--minor-label-color: #770000;
+	--highlight-color: #AA0000;
+	--full-page-color: #FFFAF0;
+	--page-text-color: #000000;
+	--page-link-color: #000088;
+	--page-vlink-color: #660066;
+	--page-alink-color: #888800;
+}
+
+body {
+	background-color: var(--full-page-color);
+}
+
+a:link {
+	color: var(--page-link-color);
+}
+
+a:visited {
+	color: var(--page-vlink-color);
+}
+
+a:active {
+	color: var(--page-alink-color);
+}
+
+
+/* The 'placehold' class is distinct from the 'instruction' class in that */
+/* it is intended for areas where a text is unavailable to announce that */
+/* a text will go here when available ---- as opposed to the 'instruction' */
+/* class that provides notes related to how the liturgy proceeds. */
+.placehold {
+	font-style: italic;
+}
+
+.placehold:before {
+	content: "(";
+}
+
+.placehold:after {
+	content: ")";
+}
+
+.leader {
+	text-decoration: none;
+}
+
+.congr {
+	text-decoration: underline;
+}
+
+
+p.lect_label {
+  color: var(--minor-label-color);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 120%;
+}
+
+p.lect_label:before {
+  content: "---- ";
+}
+
+p.prayer_label {
+  color: var(--minor-label-color);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 120%;
+}
+
+p.prayer_label:before {
+  content: "- - ";
+}
+
+.instruction {
+	color: var(--highlight-color);
+}
+
+.instruction:before {
+	content: "(";
+}
+
+.instruction:after {
+	content: ")";
+}
+

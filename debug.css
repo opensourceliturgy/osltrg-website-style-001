@@ -1,0 +1,18 @@
+
+:root {
+	--minor-label-color: #000077;
+	--highlight-color: #0000AA;
+}
+
+.leader {
+	color: #008800;
+}
+
+.congr {
+	color: #AA8800;
+}
+
+.placehold {
+	color: #005588;
+}
+
