@@ -24,6 +24,14 @@ a:active {
 	color: var(--highlight-color);
 }
 
+.corewords {
+	font-size: 150%;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 
 /* The 'placehold' class is distinct from the 'instruction' class in that */
 /* it is intended for areas where a text is unavailable to announce that */
@@ -41,46 +49,71 @@ a:active {
 	content: ")";
 }
 
+div.placehold {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
 .leader {
 	text-decoration: none;
+}
+div.leader {
+	margin-top: 4px;
+	margin-bottom: 4px;
 }
 
 .congr {
 	text-decoration: underline;
 }
+div.congr {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+div.lect_lblf {
+	margin-top: 10px;
+}
+
+div.prayer_lblf {
+	margin-top: 10px;
+}
 
 
-p.lect_label {
+div.lect_label {
   color: var(--minor-label-color);
   font-weight: bold;
   font-style: italic;
   font-size: 120%;
 }
 
-p.lect_label:before {
+div.lect_label:before {
   content: "---- ";
 }
 
-p.section_label {
+div.section_label {
 	color: var(--major-label-color);
 	font-weight: bold;
 	font-size: 150%;
 }
 
-p.prayer_label {
+div.prayer_label {
   color: var(--minor-label-color);
   font-weight: bold;
   font-style: italic;
   font-size: 120%;
 }
 
-p.prayer_label:before {
+div.prayer_label:before {
   content: "- - ";
 }
 
 .instruction {
 	color: var(--highlight-color);
 	text-decoration: none;
+}
+div.instruction {
+	margin-top: 4px;
+	margin-bottom: 4px;
 }
 
 .instruction:before {
