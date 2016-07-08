@@ -35,6 +35,10 @@ p.first {
 	font-size: 108%;
 }
 
+p.feature_first {
+	font-size: 108%;
+}
+
 p.feature_header {
 	color: var(--minor-label-color);
 	font-size: 140%;
