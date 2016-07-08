@@ -62,6 +62,24 @@ div.leader {
 	margin-bottom: 4px;
 }
 
+.qleader {
+	text-decoration: none;
+}
+div.qleader {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.qleader:before {
+	font-weight: bold;
+	color: var(--highlight-color);
+	content: "** < < ";
+}
+.qleader:after {
+	font-weight: bold;
+	color: var(--highlight-color);
+	content: " > > **";
+}
+
 .congr {
 	text-decoration: underline;
 }
