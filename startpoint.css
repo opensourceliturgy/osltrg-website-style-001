@@ -1,4 +1,9 @@
 
+/*
+Unicode Symbols:
+http://unicode-table.com/en/#miscellaneous-symbols
+*/
+
 body {
 	background-color: var(--full-page-color);
 }
@@ -78,6 +83,31 @@ div.qleader {
 	font-weight: bold;
 	color: var(--highlight-color);
 	content: " > > **";
+}
+
+/* \27C1 - \27C3 - \27D7 - \2ADA */
+.smb_act01:before {
+	font-size: 120%;
+	color: var(--highlight-color);
+	content: "\04B0";
+}
+
+.smb_act02:before {
+	font-size: 120%;
+	color: var(--highlight-color);
+	content: "\04B4 d";
+}
+
+.smb_act03:before {
+	font-size: 120%;
+	color: var(--highlight-color);
+	content: "\04C1";
+}
+
+.smb_act04:before {
+	font-size: 120%;
+	color: var(--highlight-color);
+	content: "\04DE";
 }
 
 .congr {
