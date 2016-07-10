@@ -8,6 +8,10 @@ body {
 	background-color: var(--full-page-color);
 }
 
+a:hover {
+	color: var(--link-hover-color);
+}
+
 a:link {
 	color: var(--page-link-color);
 }
